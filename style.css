@@ -76,7 +76,7 @@ hr {
 }
 
 .donation-para {
-    font-weight: 300;
+
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue';
 
 }
@@ -127,7 +127,7 @@ hr {
     padding-top: 50px;
 }
 
-/* ------------------------------------Plansd section is here------------------ */
+/* ------------------------------------Plans section is here------------------ */
 .plans {
     /* background-color: aqua; */
     text-align: center;
@@ -142,4 +142,66 @@ hr {
 
 #small-para-plan {
     font-family: Courier;
+}
+
+/* ---------------------Cards----- */
+.flexible-card-section {
+    display: flex;
+    margin-left: 360px;
+    margin-bottom: 20px;
+
+}
+
+.main-card-one {
+    width: 204px;
+    height: 191px;
+    padding: 10px;
+    background-color: antiquewhite;
+    padding-top: 31px;
+    border-radius: 4px;
+    margin-right: 30px;
+}
+
+.main-card-two {
+    width: 204px;
+    height: 191px;
+    padding: 10px;
+    background-color: lightpink;
+    padding-top: 31px;
+    border-radius: 4px;
+    margin-right: 30px;
+}
+
+
+.main-card-three {
+    width: 204px;
+    height: 191px;
+    padding: 10px;
+    background-color: lightcyan;
+    padding-top: 31px;
+    border-radius: 4px;
+    margin-right: 30px;
+}
+
+.card-icon {
+    height: 50px;
+    width: 54px;
+}
+
+.cards-para {
+    font-size: 10px;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue';
+
+}
+
+#card-heading {
+    font-weight: 900;
+    font-size: 17px;
+}
+
+/* -------------------------card section ends here------------------- */
+
+/* --------------------success story section-------------- */
+.success-img-size {
+    height: 50%;
 }
