@@ -10,10 +10,15 @@ body {
 
 }
 
+hr {
+    width: 700px;
+}
+
 /* ---------------------------------------------------header and banner section is here-------------- */
 .banner {
     /* background-color: antiquewhite; */
     background-image: url(images/donation1.jpg);
+    background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
@@ -55,4 +60,86 @@ body {
 .donate-now-btn:hover {
     background-color: white;
     color: tomato;
+}
+
+/* ----------------------------------------Donation section starts here */
+.donation-section {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#donation-heading {
+    font-size: 35px;
+    font-weight: 900;
+    font-family: 'Roboto Condensed', 'sans-serif';
+}
+
+.donation-para {
+    font-weight: 300;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue';
+
+}
+
+.price-list {
+    align-items: center;
+    text-align: center;
+}
+
+.price-tags {
+    display: flex;
+    /* background-color: red; */
+    padding-left: 430px;
+
+
+}
+
+.pricing-box {
+    height: 60px;
+    width: 110px;
+    background-color: aqua;
+    margin: 13px;
+    padding-top: 30px;
+    padding-bottom: 12px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+#highlighted-price-tag {
+    background-color: rgb(230, 224, 224);
+    border: 1px solid rgb(178, 74, 37);
+    color: tomato;
+    font-size: 35px;
+    height: 50px;
+    width: 110px;
+    margin: 13px;
+    padding-top: 25px;
+    padding-bottom: 24px;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+/* --------Other amount div---------- */
+.other-amount-div {
+    padding-top: 50px;
+}
+
+/* ------------------------------------Plansd section is here------------------ */
+.plans {
+    /* background-color: aqua; */
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.plans-header {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#small-para-plan {
+    font-family: Courier;
 }
