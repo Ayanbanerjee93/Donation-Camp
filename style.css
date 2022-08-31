@@ -51,7 +51,7 @@ hr {
 
 /* button */
 .donate-now-btn {
-    background-color: tomato;
+    background-image: linear-gradient(orange, tomato);
     border: none;
     width: 150px;
     height: 29px;
@@ -60,7 +60,7 @@ hr {
 }
 
 .donate-now-btn:hover {
-    background-color: crimson;
+    background-image: linear-gradient(crimson, orange);
     color: white;
 }
 
@@ -146,7 +146,7 @@ hr {
     font-family: Courier;
 }
 
-/* ---------------------Cards----- */
+/* --------------------- --------------All Cards----- */
 .flexible-card-section {
     display: flex;
     margin-left: 360px;
@@ -254,11 +254,6 @@ hr {
 
 /* -----------------------------The newsstaller------------------------ */
 
-.subscriber-area {
-    /* background-color: red; */
-    margin-bottom: 100px;
-}
-
 .subscriber-section {
     /* background-color: green; */
     height: 100%;
@@ -270,38 +265,56 @@ hr {
 
 }
 
-.para-area {
-    padding-bottom: 50px;
+
+.email-section {
+    padding: 50px;
+    margin-right: 157px;
 }
 
-.email-area {
-
-    background-color: lightgoldenrodyellow;
+.flexible-email-box {
+    background-color: lightyellow;
+    width: 27%;
+    display: flex;
+    margin-left: 35%;
     padding: 70px;
-
+    padding-left: 100px;
 }
 
-.input-btn {
-    background-color: crimson;
+.input-field {
+    background-color: aliceblue;
     border: none;
-    width: 156px;
-    height: 30px;
+    border-radius: 2px;
+}
+
+.input-btn-area {
+    margin-left: 4px;
+}
+
+.join-btn {
+    width: 100px;
+    height: 25px;
+    background-image: linear-gradient(orange, tomato);
+    border: none;
     color: white;
     border-radius: 3px;
-    font-family: 'Ubuntu', sans-serif;
+
 }
 
-.input-btn:hover {
-    background-color: darkgreen;
-    color: white;
-}
-
-
-#input-field {
-    padding: 6px;
-    border: none;
-    border-radius: 1px;
-    background-color: rgb(219, 219, 199);
+.join-btn:hover {
+    background-image: linear-gradient(crimson, tomato);
 }
 
 /* ------------------------subscriber area ends here----------------------------------- */
+
+/* ---------------------------Footer starts here----------------- */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+/* ----------------------------------footer ends here------------------------------------------------ */
