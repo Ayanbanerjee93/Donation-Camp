@@ -1,0 +1,58 @@
+/* css fonts
+1 font-family: 'Noto Serif', serif; (this is roboto)
+2 font-family: 'Roboto Condensed', sans-serif; (this is roboto sans)
+3 font-family: 'Ubuntu', sans-serif; (this is Ubantu)
+ */
+/* ------------------------Css Styling Starts Here----------------------------------------------- */
+body {
+    margin: 0;
+    font-family: 'Noto Serif', 'serif';
+
+}
+
+/* ---------------------------------------------------header and banner section is here-------------- */
+.banner {
+    /* background-color: antiquewhite; */
+    background-image: url(images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.banner-para {
+    padding-top: 70px;
+
+
+}
+
+#banner-first-line {
+    color: white;
+    font-size: 70px;
+}
+
+#banner-secound-line {
+    color: white;
+    font-size: 50px;
+}
+
+.small-para {
+    color: whitesmoke;
+    padding-top: 5px;
+}
+
+/* button */
+.donate-now-btn {
+    background-color: tomato;
+    border: none;
+    width: 150px;
+    height: 30px;
+    color: white;
+    border-radius: 4px;
+}
+
+.donate-now-btn:hover {
+    background-color: white;
+    color: tomato;
+}
