@@ -54,7 +54,7 @@ hr {
     background-color: tomato;
     border: none;
     width: 150px;
-    height: 30px;
+    height: 29px;
     color: white;
     border-radius: 4px;
 }
@@ -71,7 +71,7 @@ hr {
     margin-bottom: 50px;
 }
 
-#donation-heading {
+.donation-heading {
     font-size: 35px;
     font-weight: 900;
     font-family: 'Roboto Condensed', 'sans-serif';
@@ -249,3 +249,59 @@ hr {
     width: 359px;
     padding-top: 4px;
 }
+
+/* ----------------------------Success story section ends here-------------- */
+
+/* -----------------------------The newsstaller------------------------ */
+
+.subscriber-area {
+    /* background-color: red; */
+    margin-bottom: 100px;
+}
+
+.subscriber-section {
+    /* background-color: green; */
+    height: 100%;
+    width: 50%;
+    margin-left: 23%;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 20px;
+
+}
+
+.para-area {
+    padding-bottom: 50px;
+}
+
+.email-area {
+
+    background-color: lightgoldenrodyellow;
+    padding: 70px;
+
+}
+
+.input-btn {
+    background-color: crimson;
+    border: none;
+    width: 156px;
+    height: 30px;
+    color: white;
+    border-radius: 3px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.input-btn:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+
+#input-field {
+    padding: 6px;
+    border: none;
+    border-radius: 1px;
+    background-color: rgb(219, 219, 199);
+}
+
+/* ------------------------subscriber area ends here----------------------------------- */
