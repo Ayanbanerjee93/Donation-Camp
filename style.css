@@ -28,13 +28,15 @@ hr {
 
 .banner-para {
     padding-top: 70px;
-
-
+    width: 805px;
+    /* background-color: yellow; */
+    margin-left: 359px;
 }
 
 #banner-first-line {
     color: white;
-    font-size: 70px;
+    font-size: 50px;
+    font-weight: 900;
 }
 
 #banner-secound-line {
@@ -58,8 +60,8 @@ hr {
 }
 
 .donate-now-btn:hover {
-    background-color: white;
-    color: tomato;
+    background-color: crimson;
+    color: white;
 }
 
 /* ----------------------------------------Donation section starts here */
@@ -160,6 +162,11 @@ hr {
     padding-top: 31px;
     border-radius: 4px;
     margin-right: 30px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.main-card-one:hover {
+    box-shadow: 10px 10px 10px rgb(32, 31, 31);
 }
 
 .main-card-two {
@@ -170,6 +177,11 @@ hr {
     padding-top: 31px;
     border-radius: 4px;
     margin-right: 30px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.main-card-two:hover {
+    box-shadow: 10px 10px 10px rgb(32, 31, 31);
 }
 
 
@@ -181,6 +193,11 @@ hr {
     padding-top: 31px;
     border-radius: 4px;
     margin-right: 30px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.main-card-three:hover {
+    box-shadow: 10px 10px 10px rgb(32, 31, 31);
 }
 
 .card-icon {
@@ -202,6 +219,33 @@ hr {
 /* -------------------------card section ends here------------------- */
 
 /* --------------------success story section-------------- */
+.scucess-section {
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    /* background-color: blue; */
+}
+
+.success-para {
+    /* background-color: aqua; */
+    width: 550px;
+    height: 300px;
+    padding: 20px;
+}
+
+.sucess-header {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.success-img {
+    padding-left: 30px;
+}
+
 .success-img-size {
-    height: 50%;
+    height: 338px;
+    width: 359px;
+    padding-top: 4px;
 }
